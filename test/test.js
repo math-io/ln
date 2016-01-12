@@ -30,7 +30,7 @@ test( 'the function returns `+infinity` if provided `+infinity`', function test(
 	t.end();
 });
 
-test( 'the function returns `NaN` if provide a negative number', function test( t ) {
+test( 'the function returns `NaN` if provided a negative number', function test( t ) {
 	var val = ln( -1 );
 	t.ok( val !== val, 'returns NaN' );
 	t.end();
