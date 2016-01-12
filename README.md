@@ -33,7 +33,7 @@ val = ln( Number.POSITIVE_INFINITY );
 // returns +infinity
 ```
 
-For negative numbers, the [natural logarithm][natural logarithm] is __not__ defined.
+For negative numbers, the [natural logarithm][natural-logarithm] is __not__ defined.
 
 ``` javascript
 var val = ln( -4 );
